@@ -18,11 +18,11 @@
 
 <body>
   <!-- NAVBAR -->
-  <nav>
+  <nav  class="nav-container">
     <div>
-      <img src="./images/slack-logo.png" alt="Slack logo" />
+      <img class="logo" src="./images/slack-logo.png" alt="Slack logo" />
 
-      <ul>
+      <ul id="nav-items">
         <li>
           <a href="#">Product</a>
         </li>
@@ -38,7 +38,7 @@
       </ul>
     </div>
 
-    <div>
+    <div class="mobile-buttons-nav">
       <button>
         <img src="./images/icon-search.png" alt="Search icon">
       </button>
@@ -60,45 +60,49 @@
 
 
   <!-- HEADER -->
-  <header>
-    <div>
-      <h1>Great teamwork starts with a digital HQ</h1>
+  <header class="main-header-container">
+    <div class="main-header">
+      <h1>Great teamwork</br>starts with a digital</br>HQ</h1>
 
-      <p>Slack is free to try for as long as you'd like.</p>
+      <p class="paragraph-1"><span>Slack is free to try</span> for as long as you'd like.</p>
 
-      <div>
-        <button>Sign up with email</button>
+      <div class="button-container">
+        <button class="sign-button">Sign up with email</button>
 
-        <button>
-          <img src="./images/logo-google.png" alt="Google logo" />
+        <button class="google-button">
+          <img class="google-logo" src="./images/logo-google.png" alt="Google logo" />
           <span>Sign up with Google</span>
         </button>
       </div>
 
     </div>
 
-    <div>
+    <div class="hero-image">
       <img src="./images/hero-product-ui.png" alt="Slack app screenshot" />
     </div>
   </header>
 
   <main>
-    <section>
+    <section class="companies-container">
       <p>Trusted by companies all over the world</p>
 
-      <div>
-        <img src="./images/logo-airbnb.png" alt="Airbnb logo" />
-        <img src="./images/logo-nasa.png" alt="NASA logo" />
-        <img src="./images/logo-uber.png" alt="Uber logo" />
-        <img src="./images/logo-target.png" alt="Target logo" />
-        <img src="./images/logo-nyt.png" alt="New York Times logo" />
-        <img src="./images/logo-spotify.png" alt="Spotify logo" />
+      <div class="companies-logo-one">
+        <!--I know....Inline Style not good....-->
+        <img style="width: 30%;" src="./images/logo-airbnb.png" alt="Airbnb logo" />
+        <img style="width: 15%;" src="./images/logo-nasa.png" alt="NASA logo" />
+        <img style="width: 20%;" src="./images/logo-uber.png" alt="Uber logo" />
+        <img style="width: 10%;" src="./images/logo-target.png" alt="Target logo" />
+      </div>
+      <div class="companies-logo-two">  
+        
+        <img style="width: 50%;"  src="./images/logo-nyt.png" alt="New York Times logo" />
+        <img style="width: 30%;"  src="./images/logo-spotify.png" alt="Spotify logo" />
       </div>
 
     </section>
 
-    <section>
-      <h3>Teams large and small rely on Slack</h3>
+    <section class="info-container">
+      <h3>Teams large and small</br> rely on Slack</h3>
       <p>Slack securely scales up to support collaboration at the world’s biggest companies.</p>
 
 
@@ -129,7 +133,7 @@
       </ul>
     </section>
 
-    <section>
+    <section class="footer-button">
       <h3>Welcome to your new digital HQ</h3>
 
       <button>Try for free</button>
@@ -138,7 +142,7 @@
 
   </main>
 
-  <footer>
+  <footer class="main-footer">
     <ul>
       <li>Status</li>
       <li>Privacy</li>

@@ -8,3 +8,192 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+body {
+    background-color: #540B51;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+/*Global Styles*/
+
+.companies-container {
+    background-color:#F3EAE2;
+  
+}
+.companies-container img {
+    width: 100%;
+}
+
+.info-container {
+    background-color: white;
+}
+
+.footer-button {
+    background-color: #540B51;
+}
+
+.main-footer {
+    background-color: white;
+}
+
+
+/*Responsive*/
+@media (max-width: 768px) {
+
+    .nav-container {
+        display: flex;
+        align-items: center;
+        padding: 30px;
+       
+    }
+
+    #nav-items {
+        display: none;
+    }
+
+    .logo {
+        width: 40%;
+    }
+
+    .mobile-buttons-nav {
+        background-color: #540B51;
+        display: flex;
+        gap: 20px;
+    }
+   
+    .mobile-buttons-nav button {
+        background-color: #540B51;
+        border: none;
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+    .main-header-container{
+        display: flex;
+        padding: 30px;
+        flex-direction: column;
+        text-align: center;
+        font-size: 1rem;
+        color: white;
+        text-align: center;
+    }
+
+    .main-header-container .hero-image img {
+        display: flex;
+        align-items: center;
+        margin-top: 40px;
+        width: 500px;
+  
+    }
+
+    .main-header-container .main-header .button-container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .main-header-container .main-header button {
+        width: 100%;
+        height: 50px;
+        margin-top: 20px;
+        text-transform: uppercase; 
+        font-weight: 500;
+        border: none;
+    }
+
+    .main-header-container .main-header .button-container .sign-button {
+        color: #540B51;
+        border-radius: 4px;
+        justify-self:center;
+    }
+    .main-header-container .main-header .button-container .google-button {
+        display: flex;
+        align-items: center;
+        background-color: #2E71A6;
+        border-color: #2E71A6;
+        border-radius: 4px;
+    }
+    .main-header-container .main-header .button-container .google-button img {
+        background-color:#F3EAE2;
+        display: flex;
+        align-items: center;
+        justify-content:flex-start;
+        height: 40px;
+    }
+    .main-header-container .main-header .button-container .google-button span {
+        color: white;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        
+    }
+    
+    .main-header .paragraph-1 {
+        font-size: 0.9rem;
+    }
+
+    .main-header .paragraph-1 span {
+        color: #ECB12F;
+    }
+
+    .companies-container {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+
+
+    .companies-container p {
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 20px;
+
+    }
+
+    .companies-container .companies-logo-one {
+        display: flex;
+        margin-top: 10px;
+        justify-content:space-between;
+        align-items: center;
+    }
+
+    .companies-container .companies-logo-two {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .companies-container img{
+      display: flex;
+      height: 100%;
+    
+
+  
+    }
+
+    .info-container {
+        text-align: center;
+    }
+
+    .info-container h3 {
+        font-size: 1.5rem;
+        color: #540B51;
+        
+      
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
